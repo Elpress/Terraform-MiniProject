@@ -1,4 +1,4 @@
-resource "aws_ebs_volume" "myvol" {
+resource "aws_ebs_volume" "myvol1" {
   availability_zone = var.AZ
   size = var.disk_size
 

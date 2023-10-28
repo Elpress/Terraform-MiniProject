@@ -33,6 +33,7 @@ resource "aws_instance" "mini-projet-ec2" {
         "sudo apt install -y nginx",
         "sudo systemctl start nginx",
         "sudo systemctl enable nginx",
+        "sudo systemctl status nginx",
      ]
 
      connection {

@@ -3,7 +3,7 @@ resource "aws_security_group" "mysg" {
   description = "Allow http and ssh inbound traffic"
 
   ingress {
-    description = "Http from all"
+    description = "HTTP from All"
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
@@ -11,7 +11,7 @@ resource "aws_security_group" "mysg" {
   }
 
   ingress {
-    description = "Https from all"
+    description = "HTTPS from All"
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
@@ -19,7 +19,7 @@ resource "aws_security_group" "mysg" {
   }
 
   ingress {
-    description = "Http from all"
+    description = "SSH from All"
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
