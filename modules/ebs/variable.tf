@@ -12,5 +12,5 @@ variable "disk_size" {
 
 variable "AZ" {
   type = string
-  default = "us-east-1"
+  default = "us-east-1a"
 }

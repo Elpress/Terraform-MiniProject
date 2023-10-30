@@ -32,14 +32,13 @@ resource "aws_instance" "mini-projet-ec2" {
         "sudo apt update -y",
         "sudo apt install -y nginx",
         "sudo systemctl start nginx",
-        "sudo systemctl enable nginx",
-        "sudo systemctl status nginx",
+        "sudo systemctl enable nginx"
      ]
 
      connection {
        type = "ssh"
        user = var.user
-       private_key = file("C:/Users/m84285195/Documents/FORMATIONS/CLOUD/DevOps/Terraform${var.ssh_key}.pem")
+       private_key = file("C:/Users/m84285195/Documents/FORMATIONS/CLOUD/DevOps/Terraform/${var.ssh_key}.pem")
        host = self.public_ip
      }
   }

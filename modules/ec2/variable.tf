@@ -15,7 +15,7 @@ variable "ssh_key" {
 
 variable "AZ" {
   type = string
-  default = "us-east-1"
+  default = "us-east-1a"
 }
 
 variable "sg_name" {
