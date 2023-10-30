@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  shared_credentials_files = ["C:Users/m84285195/Documents/FORMATIONS/CLOUD/DevOps/Terraform/aws_credentials"]
-  profile = "Administrator"
+  shared_credentials_files = ["C:/terraform/aws_credentials"]
+  profile = "default"
 }
 
 #Creation du SG
