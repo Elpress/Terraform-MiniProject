@@ -1,7 +1,11 @@
 output "output_eip" {
-  value = aws_eip.myeip.public_ip
+  value = aws_eip.lb.public_ip
 }
 
 output "output_eip_id" {
-  value = aws_eip.myeip.id
+  value = aws_eip.lb.id
+}
+
+output "instance" {
+    value = aws_eip.lb.instance
 }

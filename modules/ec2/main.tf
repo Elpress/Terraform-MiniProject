@@ -24,7 +24,7 @@ resource "aws_instance" "mini-projet-ec2" {
   }
 
   provisioner "local-exec" {
-    command = "echo Publique IP: ${var.public_ip} >> ip_ec2.txt"
+    command = "echo Publique IP: ${var.ec2_public_ip} >> ip_ec2.txt"
   }
 
   provisioner "remote-exec" {

@@ -23,7 +23,7 @@ variable "sg_name" {
   default = "NULL"
 }
 
-variable "public_ip" {
+variable "ec2_public_ip" {
   type = string
   default = "NULL"
 }
