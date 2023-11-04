@@ -54,25 +54,25 @@ Voici quelques captures d'écran pour illustrer le succès du déploiement de l'
 
 1. EC2 avec Elastic IP associé.
 
-![Capture d'ecran 1](../ec2.PNG)
+![Capture d'ecran 1](screenshots/ec2.PNG)
 L'instance EC2 a été créée et l'elastic IP associé avec succès
 
 2. Vérification de NGINX déployé.
 
-![Capture d'ecran 2](../nginx%20verification.PNG)
+![Capture d'ecran 2](screenshots/nginx%20verification.PNG)
 Notre serveur est ainsi joingnable via l'ip public.
 
 2. EC2 avec Elastic IP associé.
 
-![Capture d'ecran 3](../ebs.PNG)
+![Capture d'ecran 3](screenshots/ebs.PNG)
 L'instance EC2 a été créée et l'ebs associé avec succès
 
 3. Vérification des security groups.
 
-![Capture d'ecran 4](../sg%20inbound%20rules.PNG)
+![Capture d'ecran 4](screenshots/sg%20inbound%20rules.PNG)
 Les règles inbound
 
-![Capture d'ecran 5](../sg%20outbound%20rules.PNG)
+![Capture d'ecran 5](screenshots/sg%20outbound%20rules.PNG)
 Les règles outbound
 
 ## Auteur
