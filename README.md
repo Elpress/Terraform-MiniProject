@@ -21,7 +21,7 @@ paramétrables.
 3. **Public IP Module**: Génère une adresse IP publique et l&#39;associe au groupe de sécurité.
 
 4. **Security Group Module**: Crée un groupe de sécurité permettant les connexions sur les ports
-80 et 443.
+22, 80 et 443.
 
 ## Structure du Projet
 
