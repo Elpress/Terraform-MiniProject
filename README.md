@@ -52,22 +52,22 @@ Pour déployer l&#39;infrastructure, suivez ces étapes :
 
 Voici quelques captures d'écran pour illustrer le succès du déploiement de l'infrastructure
 
-1. EC2 avec Elastic IP associé.
+#### 1. EC2 avec Elastic IP associé.
 
 ![Capture d'ecran 1](screenshots/ec2.PNG)
 L'instance EC2 a été créée et l'elastic IP associé avec succès
 
-2. Vérification de NGINX déployé.
+#### 2. Vérification de NGINX déployé.
 
 ![Capture d'ecran 2](screenshots/nginx%20verification.PNG)
 Notre serveur est ainsi joingnable via l'ip public.
 
-2. EC2 avec Elastic IP associé.
+#### 3. EC2 avec Elastic IP associé.
 
 ![Capture d'ecran 3](screenshots/ebs.PNG)
 L'instance EC2 a été créée et l'ebs associé avec succès
 
-3. Vérification des security groups.
+#### 4. Vérification des security groups.
 
 ![Capture d'ecran 4](screenshots/sg%20inbound%20rules.PNG)
 Les règles inbound
