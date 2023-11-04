@@ -48,6 +48,35 @@ Pour déployer l&#39;infrastructure, suivez ces étapes :
 
 5. Après le déploiement, vous trouverez l&#39;adresse IP publique dans le fichier `ip_ec2.txt`.
 
+## Captures d'écran
+
+Voici quelques captures d'écran pour illustrer le succès du déploiement de l'infrastructure
+
+1. EC2 avec Elastic IP associé.
+
+![Capture d'ecran 1](../ec2.PNG)
+L'instance EC2 a été créée et l'elastic IP associé avec succès
+
+2. Vérification de NGINX déployé.
+
+![Capture d'ecran 2](../nginx%20verification.PNG)
+Notre serveur est ainsi joingnable via l'ip public.
+
+2. EC2 avec Elastic IP associé.
+
+![Capture d'ecran 3](../ebs.PNG)
+L'instance EC2 a été créée et l'ebs associé avec succès
+
+3. Vérification des security groups.
+
+![Capture d'ecran 4](../sg%20inbound%20rules.PNG)
+Les règles inbound
+
+![Capture d'ecran 5](../sg%20outbound%20rules.PNG)
+Les règles outbound
+
 ## Auteur
 
 Méwé Elvis BALO
+
+Mail: elvisbalo9@gmail.com
